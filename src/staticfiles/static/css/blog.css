@@ -1,0 +1,25 @@
+.container {
+    max-width: 1140px;
+}
+
+.blog_card_layout {
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.blog_card_list {
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.blog_card_list_img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
